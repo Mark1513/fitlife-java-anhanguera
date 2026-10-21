@@ -1,0 +1,280 @@
+Autor: Marcos Paulo Santos Mota | Anhanguera — Aula 15, Unidade 4
+Dados em memória. Pagamentos exclusivamente simulados.
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: Não foi possível concluir: Informe um número inteiro válido.
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: Não foi possível concluir: Informe um número inteiro válido.
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: Não foi possível concluir: Informe um número inteiro válido.
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: Opção inválida. Escolha um número de 0 a 9.
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: Nenhum cliente cadastrado.
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: Tipo (1 - Mensal, 2 - Anual, 3 - Premium): Nome do plano: Valor base MENSAL (ex.: 100,00; sem separador de milhar): Plano cadastrado: Mensal [PlanoMensal] | Base mensal: R$ 100,00 | Mensalidade: R$ 100,00
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: Tipo (1 - Mensal, 2 - Anual, 3 - Premium): Nome do plano: Valor base MENSAL (ex.: 100,00; sem separador de milhar): Plano cadastrado: Anual [PlanoAnual] | Base mensal: R$ 100,00 | Mensalidade: R$ 90,00
+Desconto anual: 10%. Total de 12 mensalidades: R$ 1.080,00
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: Tipo (1 - Mensal, 2 - Anual, 3 - Premium): Nome do plano: Valor base MENSAL (ex.: 100,00; sem separador de milhar): Benefícios: Plano cadastrado: Premium [PlanoPremium] | Base mensal: R$ 150,00 | Mensalidade: R$ 150,00 | Benefícios: Aulas coletivas
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: ID 1 | Mensal [PlanoMensal] | Base mensal: R$ 100,00 | Mensalidade: R$ 100,00
+ID 2 | Anual [PlanoAnual] | Base mensal: R$ 100,00 | Mensalidade: R$ 90,00
+ID 3 | Premium [PlanoPremium] | Base mensal: R$ 150,00 | Mensalidade: R$ 150,00 | Benefícios: Aulas coletivas
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: E-mail do cliente: ID 1 | Mensal [PlanoMensal] | Base mensal: R$ 100,00 | Mensalidade: R$ 100,00
+ID 2 | Anual [PlanoAnual] | Base mensal: R$ 100,00 | Mensalidade: R$ 90,00
+ID 3 | Premium [PlanoPremium] | Base mensal: R$ 150,00 | Mensalidade: R$ 150,00 | Benefícios: Aulas coletivas
+ID do plano: Não foi possível concluir: Cliente inexistente: marcos@exemplo.com
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: E-mail do cliente: Não foi possível concluir: Cliente inexistente: marcos@exemplo.com
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: Não foi possível concluir: Informe um número inteiro válido.
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: Não foi possível concluir: Informe um número inteiro válido.
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: Nenhum treino cadastrado.
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: E-mail do cliente: Não foi possível concluir: Cliente inexistente: marcos@exemplo.com
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: E-mail do cliente: Não foi possível concluir: Cliente inexistente: marcos@exemplo.com
+
+=================================
+        SISTEMA FITLIFE
+=================================
+1 - Cadastrar cliente
+2 - Listar clientes
+3 - Cadastrar plano
+4 - Listar planos
+5 - Associar plano ao cliente
+6 - Cadastrar treino
+7 - Listar treinos
+8 - Processar pagamento
+9 - Exibir dados de um cliente
+0 - Sair
+=================================
+Escolha uma opção: FitLife encerrado. Os dados desta sessão não são persistidos.
