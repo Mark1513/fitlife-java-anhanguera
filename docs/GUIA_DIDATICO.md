@@ -212,4 +212,4 @@ Persistência em arquivo ou banco; identificação independente do e-mail; compe
 
 ## 9. Preparação final
 
-Antes da apresentação, execute o sistema na máquina em que será demonstrado, confira o Java, repita os testes e pratique o roteiro. Revise os métodos citados para explicar com suas próprias palavras. Se o repositório estiver privado, confira o acesso do professor antes de enviar o link.
+Antes da apresentação, execute o sistema na máquina em que será demonstrado, confira o Java, repita os testes e pratique o roteiro. Revise os métodos citados para explicar com suas próprias palavras. O repositório desta entrega está público e pode ser consultado pelo professor sem convite. O print incluído em `docs/imagens/fitlife-execucao.png` mostra a saída real do Java em uma janela de demonstração com entradas automatizadas.

@@ -45,6 +45,8 @@ Referências oficiais: [JDK Temurin](https://adoptium.net/temurin/releases/?vers
 FitLife/
 ├── pom.xml
 ├── README.md
+├── ENTREGA.md
+├── Executar_FitLife.cmd
 ├── compilar-executar.cmd
 ├── compilar-executar.sh
 ├── .gitignore
@@ -84,7 +86,10 @@ FitLife/
     ├── CODIGO_COMPLETO.md
     ├── VALIDACAO.md
     ├── exemplo-entrada.txt
-    └── execucao-real.txt
+    ├── execucao-real.txt
+    ├── print-entrada.txt
+    ├── print-saida.txt
+    └── imagens/fitlife-execucao.png
 ```
 
 Foi adotada a estrutura padrão Maven, `src/main/java` e `src/test/java`, para separar aplicação e testes e facilitar a importação nas IDEs. `docs/CODIGO_COMPLETO.md` reúne todos os arquivos de código, sempre identificando o caminho antes do conteúdo.
@@ -178,6 +183,16 @@ sh compilar-executar.sh
 
 Os scripts compilam as fontes para `build/classes`, criam `build/fitlife.jar` e iniciam o menu. Esses scripts não executam JUnit; para isso, use Maven. No Windows, o script também ativa UTF-8 no console.
 
+## Executar o JAR incluído no ZIP da entrega
+
+O ZIP completo de entrega inclui `distribuicao/fitlife.jar`, gerado e validado a partir deste código. Com Java 17 ou superior disponível, dê dois cliques em `Executar_FitLife.cmd` no Windows ou execute:
+
+```powershell
+java "-Dfile.encoding=UTF-8" -jar distribuicao/fitlife.jar
+```
+
+O script também reconhece o JDK local preparado nesta pasta de trabalho. Em outro computador, configure `JAVA_HOME` ou `PATH` conforme as instruções acima. O JDK não está incluído no ZIP. O JAR de distribuição acompanha o ZIP local de entrega; no clone do GitHub ou no ZIP automático do GitHub, compile com Maven ou com os scripts de compilação para gerá-lo.
+
 ## Executar os testes
 
 ```text
@@ -216,7 +231,15 @@ Pagamento SIMULADO #1 | Cliente: Marcos Paulo Santos Mota | E-mail: marcos@exemp
 
 Teste também cadastrar idade `14`, digitar `abc` no menu e pagar sem plano. O programa informa o motivo e continua. O arquivo [docs/exemplo-entrada.txt](docs/exemplo-entrada.txt) contém um roteiro completo com os três planos; [docs/execucao-real.txt](docs/execucao-real.txt) registra sua saída real. Ao redirecionar entrada de arquivo, o terminal pode não ecoar os dados digitados; o roteiro de entrada fica separado para permitir reproduzir a sessão.
 
-Para produzir o print solicitado na atividade, execute o menu no seu terminal, deixe a confirmação e seu nome visíveis e capture a janela com a Ferramenta de Captura do Windows. A transcrição fornecida é uma evidência textual de execução, não uma captura de tela do terminal.
+## Print da execução
+
+O print selecionado mostra o aluno **Marcos Paulo Santos Mota**, o plano Anual com mensalidade de **R$ 90,00**, o treino associado e a confirmação do pagamento simulado.
+
+![Execução do FitLife — Marcos Paulo Santos Mota](docs/imagens/fitlife-execucao.png)
+
+A imagem é uma captura da janela de demonstração que apresenta a **saída real do JAR original**, com entradas automatizadas. O cabeçalho identifica essa forma de execução. Ela não representa um pagamento financeiro real. O roteiro dessa sessão está em [docs/print-entrada.txt](docs/print-entrada.txt), e a saída integral, com código de saída **0**, em [docs/print-saida.txt](docs/print-saida.txt). A imagem foi incluída como fornecida, sem edição.
+
+Para produzir outra captura no seu próprio terminal, execute `Executar_FitLife.cmd`, siga o roteiro do exemplo e use a Ferramenta de Captura do Windows após o pagamento. A captura incluída e a transcrição textual são evidências diferentes da mesma funcionalidade.
 
 ## O que funciona e o que é simulado
 
@@ -228,7 +251,7 @@ Para produzir o print solicitado na atividade, execute o menu no seu terminal, d
 
 ## GitHub e entrega
 
-Repositório preparado para esta atividade: **Mark1513/fitlife-java-anhanguera**, inicialmente privado.
+Repositório **público** desta atividade: [Mark1513/fitlife-java-anhanguera](https://github.com/Mark1513/fitlife-java-anhanguera). O professor pode consultar o código, a documentação e o print pelo link, sem convite.
 
 Para criar outro repositório ou repetir o processo:
 
@@ -255,4 +278,4 @@ mvn clean verify
 
 A autenticação deve ser feita pelo próprio Git/GitHub; não grave tokens no código. O `.gitignore` exclui classes, saídas de compilação e configurações locais. O workflow em `.github/workflows/java.yml` compila e testa em Java 17 quando o GitHub Actions estiver habilitado. O resultado local e o resultado do Actions são evidências distintas.
 
-Para a entrega acadêmica, envie o link com acesso, o ZIP, as instruções, a evidência dos testes e o print do seu console. Estude o [guia didático](docs/GUIA_DIDATICO.md) para explicar suas escolhas e adaptar o projeto às orientações do professor.
+Para a entrega acadêmica, envie o link público e o ZIP completo, que reúne fontes, testes, instruções, evidências, o print e o JAR compilado. Consulte [ENTREGA.md](ENTREGA.md) para localizar os arquivos. Estude o [guia didático](docs/GUIA_DIDATICO.md) para explicar suas escolhas e adaptar o projeto às orientações do professor.

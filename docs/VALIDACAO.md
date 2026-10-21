@@ -48,6 +48,14 @@ Também foram verificados limites de idade, valores negativos, arredondamento de
 
 O arquivo de saída foi verificado como UTF-8. Em redirecionamento de entrada, os valores fornecidos ao programa podem não aparecer como eco no terminal; por isso o roteiro de entrada também está incluído.
 
+## Captura incluída na entrega
+
+O arquivo [imagens/fitlife-execucao.png](imagens/fitlife-execucao.png) é o primeiro print fornecido pelo aluno e foi incluído sem edição. Mostra a saída real do JAR em uma janela de demonstração, identificada no próprio cabeçalho como uma execução com entradas automatizadas. A sessão usa um cliente com o nome do aluno, e-mail fictício e idade demonstrativa, plano anual, treino e pagamento simulado de R$ 90,00.
+
+O roteiro dessa sessão está em [print-entrada.txt](print-entrada.txt), e a transcrição está em [print-saida.txt](print-saida.txt). O processo Java terminou com código **0**. A captura da janela de demonstração não é uma captura do Prompt de Comando ou do Windows Terminal.
+
+Esta atualização inclui o print, as evidências e as instruções de entrega; o código Java e os testes não foram alterados. Os 62 testes descritos acima foram executados na validação anterior, não foram novamente executados apenas para incluir a imagem.
+
 ## Como repetir
 
 Dentro da pasta que contém o `pom.xml`:
@@ -64,5 +72,5 @@ No PowerShell, utilize `java "-Dfile.encoding=UTF-8" -jar target/fitlife.jar`. P
 - Os resultados acima referem-se à execução local realizada; não são uma previsão ou uma mera instrução.
 - O script Linux/macOS foi fornecido, mas **não foi executado nesses sistemas**.
 - Os testes não provam ausência de todos os defeitos e não envolvem um pagamento financeiro real.
-- A transcrição é uma saída real do programa, **não uma captura de tela do terminal**. O README explica como produzir o print no ambiente da apresentação.
+- As transcrições são saídas reais do programa em texto. A captura incluída mostra a janela de demonstração com a saída real do Java e entradas automatizadas. O README também explica como produzir uma captura no terminal da apresentação.
 - O workflow GitHub Actions é uma verificação adicional. Seu estado deve ser consultado no GitHub; não é inferido dos resultados locais.
